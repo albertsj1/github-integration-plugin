@@ -123,7 +123,6 @@ public class GitHubBranchTrigger extends GitHubTrigger<GitHubBranchTrigger> {
                         String.format("Failed register hook for %s. <br/> Because %s",
                                 job.getFullName(), error.toString())
                 ));
-                throw error;
             }
         }
     }
